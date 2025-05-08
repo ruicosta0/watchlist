@@ -10,15 +10,15 @@ interface WatchListApi {
 
     //check out proguard to hide, its in build.gradle.kts
     @Headers("Cache-Control: no-cache")
-    @GET("releases/?apiKey=GIbEnlmBeVyx99O1YxAUOihxpEGrGt55mPBH8a6H")
+    @GET("releases/?apiKey=")
     suspend fun getUpcomingReleases(): NetworkMovieContainer
 
     @Headers("Cache-Control: no-cache")
-    @GET("sources/?apiKey=GIbEnlmBeVyx99O1YxAUOihxpEGrGt55mPBH8a6H")
+    @GET("sources/?apiKey=")
     suspend fun getServiceRegions(): List<NetworkService>
 
     @Headers("Cache-Control: no-cache")
-    @GET("title/{titleId}/details/?apiKey=GIbEnlmBeVyx99O1YxAUOihxpEGrGt55mPBH8a6H")
+    @GET("title/{titleId}/details/?apiKey=")
     suspend fun getTitleDetail(@Path("titleId") titleId: Int): TitleDetail
 }
 
