@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/launchFragment">
+
+    <fragment
+        android:id="@+id/launchFragment"
+        android:name="com.example.watchlist.launch.LaunchFragment">
+        <action
+            android:id="@+id/to_upcoming_releases_fragment"
+            app:destination="@id/upcomingReleasesFragment" />
+        <action
+            android:id="@+id/toWatchList"
+            app:destination="@id/watchList" />
+    </fragment>
+    <fragment
+        android:id="@+id/upcomingReleasesFragment"
+        android:name="com.example.watchlist.upcomingreleases.UpcomingReleasesFragment"
+        android:label="Upcoming Releases">
+        <action
+            android:id="@+id/action_upcomingReleasesFragment_to_movieDetailFragment"
+            app:destination="@id/titleDetailFragment" />
+        <action
+            android:id="@+id/action_upcomingReleasesFragment_to_watchList"
+            app:destination="@id/watchList" />
+    </fragment>
+    <fragment
+        android:id="@+id/watchList"
+        android:name="com.example.watchlist.watchlist.WatchlistFragment"
+        android:label="My Watchlist">
+        <action
+            android:id="@+id/action_watchList_to_titleDetailFragment"
+            app:destination="@id/titleDetailFragment" />
+        <action
+            android:id="@+id/action_watchList_to_upcomingReleasesFragment"
+            app:destination="@id/upcomingReleasesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/titleDetailFragment"
+        android:name="com.example.watchlist.moviedetail.TitleDetailFragment"
+        android:label="Title Details" />
+</navigation>

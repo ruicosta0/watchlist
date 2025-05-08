@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="actionBarStyle">@style/CustomActionBarStyle</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CustomActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/colorPrimary</item> <!-- Background color for ActionBar -->
+        <item name="titleTextStyle">@style/CustomActionbarTitleStyle</item>
+    </style>
+
+    <style name="CustomActionbarTitleStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item> <!-- Text color -->
+        <item name="android:textSize">20sp</item> <!-- Text size -->
+    </style>
+
+    <style name="TextAppearance_MaterialComponents_Chips" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.Chip.Primary" parent="Widget.MaterialComponents.Chip.Entry">
+        <!-- Set the chip background color to primary -->
+        <item name="chipBackgroundColor">@color/colorPrimary</item>
+    </style>
+</resources>

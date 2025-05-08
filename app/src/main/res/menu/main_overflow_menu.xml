@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/show_todays_releases"
+        android:title="@string/view_todays_releases"/>
+    <item
+        android:id="@+id/show_next_seven_releases"
+        android:title="@string/view_the_next_seven_days_releases"/>
+    <item
+        android:id="@+id/show_today_onwards"
+        android:title="@string/view_todays_releases_onwards"/>
+    <item
+        android:id="@+id/show_all_movie_releases"
+        android:title="@string/view_all_releases"/>
+    <item
+        android:id="@+id/navigate_to_watchlist_from_releases"
+        android:title="@string/go_to_my_watchlist"/>
+</menu>

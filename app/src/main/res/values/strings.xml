@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WatchList</string>
+    <string name="view_upcoming_releases">View Upcoming Releases</string>
+    <string name="view_todays_releases">View today\'s releases</string>
+    <string name="view_the_next_seven_days_releases">View the next seven day\'s releases</string>
+    <string name="view_all_releases">View all releases</string>
+    <string name="view_todays_releases_onwards">View today\'s releases onwards</string>
+    <string name="filter_option">Filter Option</string>
+    <string name="location_required_error">Location services must be enabled to use the app</string>
+    <string name="permission_denied_explanation">You need to grant location permission in order to select the location.</string>
+    <string name="settings">Settings</string>
+    <string name="location_notifcation">Enable location permission to limit providers to those in your location</string>
+    <string name="go_to_my_watchlist"><b><u>Go to My Watchlist</u></b></string>
+    <string name="go_to_list_of_releases">Go to list of releases</string>
+    <string name="internet_connectivity">No connection. Please enable internet or find signal to view Title</string>
+    <string name="location_connectivity">Enable location and network settings to limit results to your region</string>
+    <string name="watchlist_empty">There are no movies in the Watchlist</string>
+    <string name="choose_an_action">Choose an Action</string>
+    <string name="remove_title_from_watchlist">Remove Title from Watchlist</string>
+    <string name="go_to_title_details">Go to Title Details</string>
+    <string name="cancel">Cancel</string>
+    <string name="link_to_trailer">Link to Trailer</string>
+    <string name="add_to_watchlist">Add to Watchlist</string>
+
+</resources>
